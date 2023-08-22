@@ -34,7 +34,8 @@ const Settings = [
 
 const Sidebar = () => {
   return (
-    <div className='w-full h-[1049px] border-r border-gray-200 bg-white space-y-7 space-x-7'>
+    <div>
+    <div className='w-full h-[1020px] border-r border-b border-gray-200 bg-white space-y-7 space-x-7'>
       <div className='py-4 font-bold flex justify-center border-b'>
         <Image src={Logo} className='' />
       </div>
@@ -71,27 +72,23 @@ const Sidebar = () => {
           ))}
         </div>
       </div>
+</div>
 
-
-
-
-
-
-<div className=' border-t w-full'></div>
-      <div className='flex justify-around items-center'>
-        <div className='flex gap-2 items-center'>
+<div className='flex justify-between mx-3 items-center mt-4'>
+<div className='flex gap-2 items-center'>
 <Image src={info} className='w-[32px] h-[32px]'/>
 <div>
-  <h1 className='text-[#2C3652] font-poppins  font-normal leading-[15px]'>Webex Starship</h1>
-  <h1 className='text-[#3F4C5A] font-poppins text-xs font-normal '>charlie@webex.com</h1>
+<h1 className='text-[#2C3652] font-poppins  font-normal leading-[15px]'>Webex Starship</h1>
+<h1 className='text-[#3F4C5A] font-poppins text-xs font-normal '>charlie@webex.com</h1>
 </div>
 </div>
 
 <div>
-  <Image src={vee}/>
+<Image src={vee}/>
 </div>
-      </div>
-    </div>
+</div>
+</div>
+
   );
 };
 

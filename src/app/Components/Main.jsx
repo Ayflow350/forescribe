@@ -24,7 +24,7 @@ import coming from "../assets/Icons/coming.png"
 
 const Main = () => {
   return (
-    <div className='w-full h-screen bg-white '>
+    <div className='w-full h-[1600px] bg-white '>
       <div className='border-b '>
       <div className='flex h-[66px] justify-between space-x-1 mx-3 '>
         <div className='relative flex items-center gap-3'>
@@ -49,9 +49,9 @@ const Main = () => {
 </div>
 </div>
 {/* the last part of the project */}
-<div className=' space-y-7 mx-3 mt-14'>
+<div className=' space-y-7 mx-3 mt-20'>
       <div className='space-y-3'>
-        <h1 className='text-[#2C3652] font-poppins text-2xl font-semibold'>Integrations</h1>
+        <h1 className='text-[#2C3652] font-poppins text-3xl font-semibold'>Integrations</h1>
           <h1 className='text-[#3F4C5A] font-poppins text-base font-normal'>Missing your favorite Integration? You can request one 
          <span className='text-[#8B3DFF] font-poppins text-base font-normal ml-1'>
          here.
@@ -177,13 +177,13 @@ h-[40px] bg-[#8B3DFF] text-white rounded'>Connect</button>
 h-[40px] bg-[#8B3DFF] text-white rounded'>Upload</button>
     </div>
     {/* the second segment  */}
-    <div className='flex gap-2'>
+    <div className='flex gap-2 '>
       <h1 className='text-[#2C3652] font-poppins text-lg font-medium'>Engagement</h1>
       <Image src={question}/>
 
     </div>
 
-    <div className='flex justify-between border p-5 rounded-2xl bg-[#EFEFEF] relative '>
+    <div className='flex justify-between border p-5 rounded-2xl bg-[#EFEFEF]  relative  '>
       <div className='flex gap-3 items-center '>
         <div className='border p-3 py-5 rounded-lg bg-[#518EF7]  '>
         <Image src={Zoom} className='w-[36px] h-[21px]  self-center'/> 
